@@ -1,10 +1,8 @@
 <?php namespace Jes\LogiChargify;
  
-class Chargify {
- 
+class Chargify
+{
     public static function saySomething() {
         return config('chargify.message');
     }
- 
- 
 }

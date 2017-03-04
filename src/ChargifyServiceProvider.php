@@ -13,6 +13,8 @@ class ChargifyServiceProvider extends ServiceProvider
      */
     public function boot()
     {        
+        include __DIR__.'/routes.php';
+        
         $this->publishes([
             __DIR__.'/Config/chargify.php' => config_path('chargify.php'),
             //__DIR__.'/Config/config1.php' => config_path('config1.php'),
