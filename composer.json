@@ -1,0 +1,10 @@
+{
+    "name": "jes/logi-chargify",
+    "description": "Sample Package for testing",
+    "type": "library",
+    "require": {
+        "chargely/chargify-sdk-php": "^0.1.2"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
